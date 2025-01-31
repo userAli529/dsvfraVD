@@ -1,0 +1,378 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+    .header-div {
+        display: flex
+    ;
+        justify-content: space-evenly;
+        
+        background-color: orange;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        height: 25px;
+        width: 1300px;
+        margin-left: 40px;
+        position: fixed;
+        z-index: 1000;
+        margin-top: -172px;
+        align-content: stretch;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    
+    }
+    
+    .header-div a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s, transform 0.2s;
+       margin-top: -15px;
+       
+       
+    }
+    
+ 
+    .header-div a:hover {
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+        text-shadow: 3px 3px 10px black;    
+    }
+.ali{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+h1{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.hh1{
+    margin-top: 100px;
+    position: relative;
+}
+.aaa {
+    margin-top: 100px;
+}
+.tariff-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.tariff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.advantages-container {
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы по всей ширине */
+    gap: 16px; /* Расстояние между элементами */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку при необходимости */
+}
+h2{
+  margin-left: 610px;
+  margin-top: 100px;
+}
+
+.advantage {
+margin-top: 100px;
+    width: 270px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+}
+.advantage-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+  
+    height:105px;
+    width: 1300px;
+    border-radius: 10px;
+    justify-content: center;
+background: orange;
+padding: 15px;
+margin-left: 30px;
+margin-top: 100px;
+
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-contact, .footer-subscription {
+    flex: 1;
+}
+
+.footer-contact p, .footer-subscription p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.footer-subscription form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-subscription input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.footer-subscription button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-subscription button:hover {
+    background-color:orange ;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 14px;
+    color: #888;
+}
+.sotseti {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    z-index: 99999;
+    
+    
+}
+.nomer{
+    
+   
+}
+
+.sotseti a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; 
+}
+
+.sotseti a img:hover {
+    transform: scale(1.1); 
+}
+
+.sotseti img {
+    height: 35px;
+    transition: transform 0.3s ease; 
+}
+
+.sotseti img:hover {
+    transform: scale(1.1);
+}
+/* ровма лжцд   тажш    лцуа    цуаолц ------------------ дв  ц */
+
+
+/* FAQ секция */
+.faq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+
+.order-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-button {
+    width: 100%;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+    background: #f8f9fa;
+    margin: 2rem 0;
+}
+
+
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.stat-item h2 {
+    color: orange; /* Меняем на оранжевый для соответствия общей теме */
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0; /* Сбрасываем отступ, унаследованный от общих стилей h2 */
+}
+
+
+
+/* Отзывы */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.review {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 300px;
+}
+
+.stars {
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+.reviewer {
+    font-style: italic;
+    color: #666;
+}
+
+/* ш================================ */
+
+
+.why-us-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-us-item {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-us-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.corporate-container {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    margin: 3rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.corporate-button {
+    background-color: orange;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.corporate-button:hover {
+    background-color: #ff8c00;
+    transform: scale(1.05);
+}
+
+.map-container {
+    margin: 3rem auto;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
